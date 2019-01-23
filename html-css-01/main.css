@@ -1,0 +1,122 @@
+/* .nav {
+    width: 100%;
+    display: inline;
+} */
+html{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+body{
+    background-color: #f9fafc;
+    color: #69696a;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    float: left;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    /* padding: 0 20px; */
+    right: 0;
+    
+    
+  }
+li{
+    display: inline; 
+    padding: 0 10px;
+    
+}
+li a {
+    text-decoration: none;
+    color: #69696a;
+    
+  }
+.button1 {
+        background-color: #000;
+        color: #f9fafc;
+        padding: 10px 20px;
+        border-radius: 45px;
+}
+
+.container-left{
+    float: left;
+    position: relative;
+    width: 40%;
+    margin: 80px 0;
+    margin-top: 10%;
+    margin-left: -50px; /*this is cheesy i know but i cant figure out the float left*/
+    
+   
+}
+h1{
+    color: #000;
+}
+.bodytxt {
+    padding: 0px 5px;
+    border-left: 2px solid #69696a;
+}
+
+.container-right{
+    float: right;
+    position: relative;
+    width: 40%;
+    height: 250px;
+    margin-top: 10%;
+    
+}
+
+.sm-circle {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    margins: 5px;
+    right: 60px;
+    top: 40px;
+}
+
+.med-circle{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    margins: 5px;
+    right: 50px;
+    top: 100px;
+}
+
+.lrg-circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    margins: 5px;
+    right: 120px;
+    top: 10px;
+}
+
+.scroll > a{
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background-color: #000;
+    color: #f9fafc;
+    padding: 10px 20px;
+    border-radius: 45px;
+}
